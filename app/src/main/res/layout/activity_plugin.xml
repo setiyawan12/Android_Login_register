@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="VectorDrawableCompat"
+    tools:context=".plugin">
+    <ImageView
+        android:id="@+id/circle1"
+        android:layout_width="134dp"
+        android:layout_height="134dp"
+        android:transitionName="image"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-80dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/circlet" />
+
+    <ImageView
+        android:id="@+id/circle2"
+        android:layout_width="182dp"
+        android:layout_height="182dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="-102dp"
+        android:layout_marginBottom="262dp"
+        android:src="@drawable/circle" />
+
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:background="@drawable/back"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/wiyata"
+                        android:layout_gravity="center"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Welcome To Plugin Home"
+                        android:textColor="#ffff"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textSize="19sp"
+                        android:layout_marginTop="10dp"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="215dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp"
+                        >
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            app:cardCornerRadius="5dp"
+                            >
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imv"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_centerInParent="true"
+                                    android:src="@drawable/profile" />
+
+                                <TextView
+                                    android:layout_below="@id/imv"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:text="MY PROFILE"
+                                    android:textSize="16sp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    />
+
+
+
+                            </RelativeLayout>
+
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="5dp"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            app:cardCornerRadius="5dp"
+
+                            >
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/edu"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_centerInParent="true"
+                                    android:src="@drawable/education" />
+
+                                <TextView
+                                    android:layout_below="@id/edu"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:text="EDUCATION"
+                                    android:textSize="16sp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    />
+
+
+
+                            </RelativeLayout>
+
+
+
+                        </android.support.v7.widget.CardView>
+
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp"
+                        >
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            app:cardCornerRadius="5dp"
+                            >
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imv1"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_centerInParent="true"
+                                    android:src="@drawable/health" />
+
+                                <TextView
+                                    android:layout_below="@id/imv1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:text="MEDIC"
+                                    android:textSize="16sp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    />
+
+
+                            </RelativeLayout>
+
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="5dp"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            app:cardCornerRadius="5dp"
+                            >
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/goal"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_centerInParent="true"
+                                    android:src="@drawable/goal" />
+
+                                <TextView
+                                    android:layout_below="@id/goal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:text="GOALS"
+                                    android:textSize="16sp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    />
+
+
+                            </RelativeLayout>
+
+
+
+                        </android.support.v7.widget.CardView>
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp"
+                        >
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            app:cardCornerRadius="5dp"
+                            >
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imv3"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_centerInParent="true"
+                                    android:src="@drawable/finance" />
+
+                                <TextView
+                                    android:layout_below="@id/imv3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:text="FINANCE"
+                                    android:textSize="16sp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    />
+
+
+
+                            </RelativeLayout>
+
+
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="5dp"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            app:cardCornerRadius="5dp"
+                            >
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imv4"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_centerInParent="true"
+                                    android:src="@drawable/education" />
+
+                                <TextView
+                                    android:layout_below="@id/imv4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:text="EDUCATION"
+                                    android:textSize="16sp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    />
+
+                            </RelativeLayout>
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
